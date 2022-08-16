@@ -24,7 +24,7 @@ const Home = () => {
 
         <div className="home-card-content">
           <div className="home-content-container">
-            <div>
+            <div className="home-content-container-button">
               <Button />
             </div>
 

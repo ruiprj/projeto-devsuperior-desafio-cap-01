@@ -22,7 +22,19 @@
     font-weight: bold;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
+    .main-nav {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .main-menu-items {
+        display: flex;
+        justify-content: right;
+    }
+}
+
+@media (min-width: 1200px) {
     .main-nav {
         padding-left: 150px !important;
         padding-right: 150px !important;

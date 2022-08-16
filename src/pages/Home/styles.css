@@ -1,19 +1,17 @@
 .home-container {
     padding: 20px 10px 20px 10px;
     font-size: 36px;
-    text-align: center;
-    border: 1px solid red;
 }
 
 .home-card-image {
     color: #fff;
     background-color: #00285F;
     border-radius: 20px;
-    border: 1px solid red;
 }
 
 .home-image-container {
     padding: 60px 30px 50px 30px;
+    text-align: center;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -37,21 +35,19 @@
 .home-image-container img {
     width: 244px;
     height: 146px;
-
-    /* width: 100%;
-    height: auto; */
 }
 
+/**********************************************************************/
 
 .home-card-content {
     margin-top: 20px;
-    border: 1px solid red;
 }
 
 .home-content-container {
     padding: 28px 50px 25px 50px;
     background-color: #EDEDED;
     border-radius: 10px;
+    text-align: center;
     
     display: flex;
     flex-direction: column;
@@ -59,8 +55,167 @@
 }
 
 .home-content-container p {
-    width: 260px;
+    width: 200px;
     margin-top: 20px;
     margin-bottom: 0;
     font-size: 0.5em;
 }
+
+@media (min-width: 576px) {
+    .home-container {
+        padding: 30px 20px 25px 20px;
+    }
+
+    .home-image-container {
+        padding: 20px 60px 40px 60px;
+    }
+
+    .home-image-container img {
+        width: 333px;
+        height: 199px;
+    }
+
+    .home-image-container-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-image-container-content h1 {
+        width: 460px;
+        font-size: 1em;
+        margin-top: 20px;
+    }
+    
+    .home-image-container-content p {
+        width: 380px;
+        font-size: 0.5em;
+        margin-top: 0;
+    }
+
+    /**********************************************************************/
+
+    .home-card-content {
+        margin-top: 25px;
+    }
+    
+    .home-content-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .home-content-container-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-content-container p {
+        margin-top: 0;
+        margin-left: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .home-image-container {
+        padding: 80px 175px 45px 175px;
+    }
+
+    .home-image-container-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-image-container-content h1 {
+        width: 460px;
+        margin-top: 38px;
+    }
+    
+    .home-image-container-content p {
+        width: 380px;
+    }
+
+    /**********************************************************************/
+
+    .home-content-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .home-image-container {
+        padding: 80px 250px 125px 250px;
+    }
+
+    .home-image-container img {
+        width: 445px;
+        height: 272px;
+    }
+
+    .home-image-container-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-image-container-content h1 {
+        width: 460px;
+        margin-top: 18px;
+    }
+    
+    .home-image-container-content p {
+        width: 380px;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+    .home-container {
+        padding: 20px 150px 20px 150px;
+    }
+
+    .home-image-container {
+        padding: 85px 80px 85px 80px;
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-image-container img {
+        width: 333px;
+        height: 199px;
+    }
+
+    .home-image-container-content {
+        width: 460px;
+        height: 200px;
+        margin-right: 25px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+        align-content: center;
+        flex-flow: wrap;
+    }
+
+    .home-image-container-content h1 {
+        width: 460px;
+        margin-top: 18px;
+    }
+    
+    .home-image-container-content p {
+        width: 380px;
+    }
+
+
+
+
+
+
+}
+
+
