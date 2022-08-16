@@ -1,0 +1,21 @@
+.product-card {
+    margin-top: 20px;
+}
+
+.product-search-card {
+    margin-bottom: 20px;
+}
+
+.product-main-card {
+    margin-bottom: 20px;
+}
+
+.product-image-content {
+    display: flex;
+    justify-content: center;
+}
+
+.product-image-content img {
+    width: 220.72px;
+    height: 165px;
+}

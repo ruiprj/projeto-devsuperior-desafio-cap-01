@@ -41,14 +41,11 @@
 
 .home-card-content {
     margin-top: 20px;
+    padding: 28px 50px 25px 50px;
 }
 
 .home-content-container {
-    padding: 28px 50px 25px 50px;
-    background-color: #EDEDED;
-    border-radius: 10px;
     text-align: center;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
