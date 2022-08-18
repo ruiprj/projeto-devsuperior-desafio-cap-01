@@ -1,0 +1,20 @@
+.find-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input-custom {
+    border: none;
+    border-color: transparent;
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    text-indent: 13px;
+}
+
+.input-custom::placeholder {
+    color: #A7A7A7;
+    font-size: 14px;
+}
+

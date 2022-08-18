@@ -2,12 +2,13 @@ import './styles.css';
 
 import ProductImg from 'assets/images/red-car.png';
 import Button from 'components/Button';
+import Find from 'components/Find';
 
 const ProductCard = () => {
   return (
     <div className="product-container">
       <div className="base-card  product-search-card">
-        <h1>Busca aqui!</h1>
+        <Find />
       </div>
 
       <div className="base-card  product-main-card">
@@ -16,14 +17,15 @@ const ProductCard = () => {
         </div>
 
         <div className="product-main-content">
-          <h4>Audi Supra TT</h4>
-          <p>
-            Mussum Ipsum, cacilds vidis litro abertis. In elementis mé pra quem
-            é amistosis quis leo.Vehicula non
-          </p>
+          <div className="product-main-content-description">
+            <h4>Audi Supra TT</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi
+            </p>
+          </div>
 
           <div className="home-content-container-button">
-            <Button />
+            <Button description='VER CATÁLOGO' />
           </div>
         </div>
       </div>

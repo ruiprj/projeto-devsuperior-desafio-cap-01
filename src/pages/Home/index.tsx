@@ -25,7 +25,7 @@ const Home = () => {
         <div className="base-card  home-card-content">
           <div className="home-content-container">
             <div className="home-content-container-button">
-              <Button />
+              <Button description='VER CATÁLOGO' />
             </div>
 
             <p>Comece agora a navegar</p>
