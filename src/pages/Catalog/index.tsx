@@ -5,8 +5,8 @@ const Catalog = () => {
   return (
     <>
       <Navbar />
-
-      <div className="container  my-4">
+      {/* container  my-4 */}
+      <div>
         <ProductCard />
       </div>
     </>

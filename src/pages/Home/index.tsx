@@ -1,7 +1,8 @@
+import './styles.css';
+
 import MainImage from 'assets/images/main-image-yellow-car.png';
 import Button from 'components/Button';
 import Navbar from 'components/Navbar';
-import './styles.css';
 
 const Home = () => {
   return (
