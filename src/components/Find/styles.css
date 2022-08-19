@@ -5,16 +5,51 @@
 }
 
 .input-custom {
+    width: 200px;
+    /* width: auto; */
+    height: 40px;
     border: none;
     border-color: transparent;
-    width: 200px;
-    height: 40px;
     background-color: #fff;
     text-indent: 13px;
+    border-radius: 0.375rem 0 0 0.375rem;
 }
 
 .input-custom::placeholder {
     color: #A7A7A7;
     font-size: 14px;
+}
+
+.btn-find-custom {
+    width: 85px;
+    border-radius: 0 0.375rem 0.375rem 0;
+}
+
+@media (min-width: 576px) {
+    .input-custom {
+        width: 320px;
+    }
+
+    .btn-find-custom {
+        width: 174px;
+    }
+}
+
+@media (min-width: 768px) {
+    .input-custom {
+        width: 516px;
+    }
+}
+
+@media (min-width: 992px) {
+    .input-custom {
+        width: 548px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .input-custom {
+        width: 584px;
+    }
 }
 

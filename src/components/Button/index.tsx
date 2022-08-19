@@ -10,9 +10,9 @@ import './styles.css';
 // 
 // export default Button;
 
-const Button = ({ description = 'CLIQUE AQUI', width = '174px', borderTopLeftRadius = '0.375rem', borderBottomLeftRadius = '0.375rem' }) => {
+const Button = ({ description = 'CLIQUE AQUI', width = '174px' }) => {
     return (
-        <button className="btn  btn-custom" style={{ width: width, borderTopLeftRadius: borderTopLeftRadius, borderBottomLeftRadius: borderBottomLeftRadius }}>
+        <button className="btn  base-btn  btn-custom" style={{ width: width }}>
             <h6>{ description }</h6>
         </button>
     );

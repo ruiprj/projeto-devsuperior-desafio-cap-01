@@ -18,3 +18,10 @@ a, a:hover {
     background-color: #EDEDED;
     border-radius: 10px;
 }
+
+.base-btn {
+    height: 40px;
+    color: #fff;
+    background-color: #00285F;
+    padding: 0;
+}

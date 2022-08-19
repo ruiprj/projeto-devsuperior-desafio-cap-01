@@ -1,18 +1,18 @@
-import Button from 'components/Button';
 import './styles.css';
 
-const Find = () => {
-    return (
-        <div className="find-content">
-            <div>
-                <input className="input-custom" type="text" placeholder='Digite sua busca' />
-            </div>
-            <div>
-                <Button description='BUSCAR' width='77px' borderTopLeftRadius='0' borderBottomLeftRadius='0' />
-            </div>
-        </div>  
-    )
-}
+const Find = ({ description = 'CLIQUE AQUI'}) => {
+  return (
+    <div className="find-content">
+      <div>
+        <input className="input-custom" type="text" placeholder="Digite sua busca" />
+      </div>
+      <div className="teste">
+        <button className="btn  base-btn  btn-find-custom" >
+          <h6>{ description }</h6>
+        </button>
+      </div>
+    </div>
+  );
+};
 
 export default Find;
-
